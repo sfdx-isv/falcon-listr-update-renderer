@@ -1,21 +1,19 @@
-# listr-update-renderer [![Build Status](https://travis-ci.org/SamVerschueren/listr-update-renderer.svg?branch=master)](https://travis-ci.org/SamVerschueren/listr-update-renderer)
+# falcon-listr-update-renderer
 
-> [Listr](https://github.com/SamVerschueren/listr) update renderer
-
-<img src="screenshot.gif" />
+> Note: This renderer is based on v0.4.0 of the original [listr-update-renderer](https://github.com/SamVerschueren/listr-update-renderer), created by Sam Verschueren
 
 
 ## Install
 
 ```
-$ npm install --save listr-update-renderer
+$ npm install --save falcon-listr-update-renderer
 ```
 
 
 ## Usage
 
 ```js
-const UpdaterRenderer = require('listr-update-renderer');
+const FalconUpdaterRenderer = require('falcon-listr-update-renderer');
 const Listr = require('listr');
 
 const list = new Listr([
@@ -24,14 +22,12 @@ const list = new Listr([
         task: () => Promise.resolve('bar')
     }
 ], {
-    renderer: UpdaterRenderer,
+    renderer: FalconUpdaterRenderer,
 	collapse: false
 });
 
 list.run();
 ```
-
-> Note: This is the default renderer for [Listr](https://github.com/SamVerschueren/listr) and doesn't need to be specified.
 
 
 ## Options
@@ -63,10 +59,6 @@ Clear the output when all the tasks are executed succesfully.
 ## Related
 
 - [listr](https://github.com/SamVerschueren/listr) - Terminal task list
+- [listr-update-renderer](https://github.com/SamVerschueren/listr-update-renderer) - Original update renderer
 - [listr-verbose-renderer](https://github.com/SamVerschueren/listr-verbose-renderer) - Listr verbose renderer
 - [listr-silent-renderer](https://github.com/SamVerschueren/listr-silent-renderer) - Suppress Listr rendering output
-
-
-## License
-
-MIT © [Sam Verschueren](https://github.com/SamVerschueren)

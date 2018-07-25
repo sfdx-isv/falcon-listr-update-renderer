@@ -1,13 +1,13 @@
 {
-  "name": "listr-update-renderer",
-  "version": "0.4.0",
-  "description": "Listr update renderer",
+  "name": "falcon-listr-update-renderer",
+  "version": "0.4.1",
+  "description": "Customized Listr update renderer created for the SFDX-Falcon CLI plugin. Orginally created by Sam Verschueren.",
   "license": "MIT",
-  "repository": "SamVerschueren/listr-update-renderer",
+  "repository": "sfdx-isv/falcon-listr-update-renderer",
   "author": {
-    "name": "Sam Verschueren",
-    "email": "sam.verschueren@gmail.com",
-    "url": "github.com/SamVerschueren"
+    "name": "Vivek M. Chawla",
+    "email": "vivek.m.chawla@gmail.com",
+    "url": "https://twitter.com/VivekMChawla"
   },
   "engines": {
     "node": ">=4"
