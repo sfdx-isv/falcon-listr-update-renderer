@@ -31,7 +31,7 @@ const renderHelper = (tasks, options, level) => {
 
 				if (utils.isDefined(data)) {
 					const out = indentString(`${figures.arrowRight} ${data}`, level, '  ');
-					output.push(`   ${chalk.gray(cliTruncate(out, process.stdout.columns - 3))}`);
+					output.push(`   ${chalk.green(cliTruncate(out, process.stdout.columns - 3))}`);
 				}
 			}
 
@@ -48,7 +48,7 @@ const render = (tasks, options) => {
 	logUpdate(renderHelper(tasks, options));
 };
 
-class UpdateRenderer {
+class FalconUpdateRenderer {
 
 	constructor(tasks, options) {
 		this._tasks = tasks;
@@ -86,4 +86,4 @@ class UpdateRenderer {
 	}
 }
 
-module.exports = UpdateRenderer;
+module.exports = FalconUpdateRenderer;

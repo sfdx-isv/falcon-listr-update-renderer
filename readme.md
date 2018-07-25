@@ -1,6 +1,6 @@
 # falcon-listr-update-renderer
 
-> Note: This renderer is based on v0.4.0 of the original [listr-update-renderer](https://github.com/SamVerschueren/listr-update-renderer), created by Sam Verschueren
+> Note: This renderer is based on v0.4.0 of the original [listr-update-renderer](https://github.com/SamVerschueren/listr-update-renderer), created by Sam Verschueren.
 
 
 ## Install
