@@ -1,7 +1,7 @@
 {
   "name": "falcon-listr-update-renderer",
   "version": "0.4.1",
-  "description": "Customized Listr update renderer created for the SFDX-Falcon CLI plugin. Orginally created by Sam Verschueren.",
+  "description": "Customized Listr update renderer created for the SFDX-Falcon CLI plugin. Based on listr-update-renderer, created by Sam Verschueren.",
   "license": "MIT",
   "repository": "sfdx-isv/falcon-listr-update-renderer",
   "author": {
